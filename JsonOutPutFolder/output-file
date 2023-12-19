@@ -1,0 +1,211 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\playwright.config.ts",
+    "rootDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/DemoBlaze/Spec",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "JsonOutPutFolder/output-file"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/DemoBlaze/Spec",
+        "testIgnore": [],
+        "testMatch": [
+          "loginTest.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/DemoBlaze/Spec",
+        "testIgnore": [],
+        "testMatch": [
+          "loginTest.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/DemoBlaze/Spec",
+        "testIgnore": [],
+        "testMatch": [
+          "loginTest.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "loginTest.spec.ts",
+      "file": "loginTest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Test cases for the Login Page",
+          "file": "loginTest.spec.ts",
+          "line": 5,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Test case for wrong userName",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 10919,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-12-19T12:46:49.641Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\loginTest-Test-cases-for-the-Login-Page-Test-case-for-wrong-userName-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\loginTest-Test-cases-for-the-Login-Page-Test-case-for-wrong-userName-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\loginTest-Test-cases-for-the-Login-Page-Test-case-for-wrong-userName-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "46bda2c7e3b4ca1f6cee-4759fd24799c74e9fb29",
+              "file": "loginTest.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Test case for wrong Password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4470,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-12-19T12:47:04.782Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\loginTest-Test-cases-for-the-Login-Page-Test-case-for-wrong-Password-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\loginTest-Test-cases-for-the-Login-Page-Test-case-for-wrong-Password-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\loginTest-Test-cases-for-the-Login-Page-Test-case-for-wrong-Password-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "46bda2c7e3b4ca1f6cee-f212bc233808b846febf",
+              "file": "loginTest.spec.ts",
+              "line": 24,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-12-19T12:46:48.410Z",
+    "duration": 21810.435999999998,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

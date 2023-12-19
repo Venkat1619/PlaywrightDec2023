@@ -1,0 +1,10 @@
+
+    
+    {
+    "Logo":"//a[@id='nava']",
+    "loginBtn":"//button[text()='Log in']",
+    "loginLink":"#login2",
+    "userName":"#loginusername",
+    "password":"#loginpassword"
+}
+
