@@ -1,0 +1,10 @@
+{
+    "name_input":"//div[@class='wp-block-jetpack-contact-form']//input[@id='g1103-name']",
+    "radioBtn":"//input[@value='Water']",
+    "checkBox":"//input[@value='Blue']",
+    "selector":"//select[@id='g1103-doyouhaveanysiblings']",
+    "email_input":"//input[@id='email']",
+    "message_input":"//textarea[@id='contact-form-comment-message']",
+    "submit_btn":"//div[contains(@class,'entry-content')]//button[contains(@type,'submit')][normalize-space()='Submit']",
+    "success_msg":"//h4[@id='contact-form-success-header']"
+}

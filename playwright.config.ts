@@ -1,8 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './DemoBlaze/Spec',
-  testMatch:['loginTest.spec.ts'],
+  testDir: './Sandbox/Spec',
+  testMatch:['formPage.spec.ts'],
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
@@ -18,7 +18,9 @@ export default defineConfig({
     headless:false,
     screenshot:'on',
     video:'on',
-    baseURL:"https://demoblaze.com/index.html",
+    // baseURL:"https://demoblaze.com/index.html",
+    baseURL:"https://practice-automation.com/"
+
   },
 
   /* Configure projects for major browsers */

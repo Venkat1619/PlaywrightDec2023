@@ -3,3 +3,10 @@
  to show report         : npx playwright show-report
  to debug               : npx playwright test --project=chromium --headed --debug
  to run specific file   : npx playwright test DemoBlaze/Spec/loginTest.spec.ts --project=chromium --headed
+ to record & 
+ write scripts          : npx playwright codegen
+ to store               : npx playwright codegen -o tests/myTest.spec.ts
+ particular Lang        : npx playwright codegen -o tests/myTest.spec.ts --traget=javascript
+ chorme                 : npx playwright codegen -o tests/myTest.spec.ts --browser=chromium
+
+  npx playwright codegen -o tests/codegenScript.spec.ts --target=javascript  --browser=chromium
