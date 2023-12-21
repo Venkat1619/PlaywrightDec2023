@@ -22,7 +22,7 @@ export class FormPage{
         await expect(this.page.locator(formLocators.checkBox).isChecked()).toBeTruthy();
        
         await this.page.selectOption(formLocators.selector,{
-            value:'Yes'
+            value:'Yes',
         });
         const content = await this.page.locator(formLocators.selector).textContent();
         await expect(content?.includes('Yes')).toBeTruthy();
@@ -31,10 +31,7 @@ export class FormPage{
         await expect(this.page.locator(formLocators.email_input)).toHaveValue(email);
         await this.page.locator(formLocators.message_input).fill(message);
         await this.page.click(formLocators.submit_btn);
-        await expect(this.page.locator(formLocators.success_msg)).toHaveText('Your message has been sent')
-
-
-
+        await expect(this.page.locator(formLocators.success_msg)).toHaveText('Your message has been sent');
 
     }
 

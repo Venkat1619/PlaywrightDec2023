@@ -1,0 +1,7 @@
+{
+    "simpleAlert":"#alert",
+    "confirmAlert":"#confirm",
+    "prompt":"#prompt",
+    "confirmResult":"#confirmResult",
+    "promptResult":"#promptResult"
+}

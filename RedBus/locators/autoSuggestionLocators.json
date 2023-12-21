@@ -1,0 +1,5 @@
+{
+    "Origin_City":"#src",
+    "Dest_City":"#dest",
+    "autoSuggestions":"//ul[@class='sc-dnqmqq eFEVtU']//li//div"
+}
