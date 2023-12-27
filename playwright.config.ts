@@ -1,8 +1,14 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './SandBox/Spec',
-  testMatch:['alert.spec.ts'],
+  testDir: './Sandbox/Spec',
+  testMatch:['downloadFile.spec.ts'],
+  timeout: 5 *60* 1000,
+  // expect: {
+    
+  //   timeout: 25000
+  // },
+  
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,

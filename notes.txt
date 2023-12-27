@@ -6,7 +6,21 @@
  to record & 
  write scripts          : npx playwright codegen
  to store               : npx playwright codegen -o tests/myTest.spec.ts
- particular Lang        : npx playwright codegen -o tests/myTest.spec.ts --traget=javascript
- chorme                 : npx playwright codegen -o tests/myTest.spec.ts --browser=chromium
+ particular Lang        : npx playwright codegen -o tests/myTest.spec.ts --target=javascript
+ chrome                 : npx playwright codegen -o tests/myTest.spec.ts --browser=chromium
 
   npx playwright codegen -o tests/codegenScript.spec.ts --target=javascript  --browser=chromium
+
+  tags                 : npx playwright test RedBus/Spec/tags.spec.ts --grep "@sanity"  [by using grep only we can run and  @sanity is a tag name , we can give any name]
+                       :   npx playwright test RedBus/Spec/tags.spec.ts --grep "@sanity" --grep-invert "@reg"[ to eliminate tag we use invert]
+
+git commands : create git repo and then in vs code
+
+               git init
+               git add remote origin https://github.com/Venkat1619/PlaywrightDec2023.git  [repo Url] 
+               git checkout -b <branchName>
+               git status
+               git add. [ add all files]
+               git add fileName[specific file]
+               git commit -m "firstCommit";
+               git push  

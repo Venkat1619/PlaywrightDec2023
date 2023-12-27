@@ -1,0 +1,7 @@
+{
+    "srcRome":"#box6",
+    "destRome":"//div[text()='Italy']",
+    "srcWashington":"#box3",
+    "destWashington":"//div[text()='United States']"
+
+}

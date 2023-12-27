@@ -1,0 +1,5 @@
+{
+    "choosefile":"#file-upload",
+    "uploadBtn":"#upload-btn",
+    "successMsg":"//div[@class='wpcf7-response-output']"
+}

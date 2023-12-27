@@ -1,0 +1,15 @@
+{
+    "locators":{
+        "doubleClick":"#doubleClickBtn",
+        "rightClick":"#rightClickBtn",
+        "simpleButton":"//button[text()='Click Me']",
+
+
+
+    },
+    "assertionLocators":{
+        "doubleClickMsg":"#doubleClickMessage",
+        "rightClickMsg":"#rightClickMessage",
+        "dynamicMsg":"#dynamicClickMessage"
+    }
+}

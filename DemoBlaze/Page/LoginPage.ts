@@ -3,6 +3,7 @@ import loginLocators from "../locators/loginPageLocators.json";
 
 export class LoginPage {
   constructor(private page: Page) {}
+  
   async login(username?: any, pwd?: any): Promise<void> {
     await expect(this.page.locator(loginLocators.Logo)).toBeVisible();
 

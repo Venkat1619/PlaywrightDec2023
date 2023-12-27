@@ -1,0 +1,10 @@
+{
+    "calendarIcon": "//input[@id='g1065-selectorenteradate']",
+    "presentMonth": "//span[@class='ui-datepicker-month']",
+    "presentYear": "//span[@class='ui-datepicker-year']",
+    "nextSymbol": "//a[@title='Next']",
+    "prevSymbol": "//a[@title='Previous']",
+    "date": "//table[@class='ui-datepicker-calendar']//tbody//tr//td//a",
+    "submitBtn": "//article[@id='post-1065']//div//div//button"
+
+}

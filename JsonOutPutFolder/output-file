@@ -1,7 +1,7 @@
 {
   "config": {
     "configFile": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\playwright.config.ts",
-    "rootDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/SandBox/Spec",
+    "rootDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/Sandbox/Spec",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -44,12 +44,12 @@
         "retries": 0,
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/SandBox/Spec",
+        "testDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/Sandbox/Spec",
         "testIgnore": [],
         "testMatch": [
-          "alert.spec.ts"
+          "downloadFile.spec.ts"
         ],
-        "timeout": 30000
+        "timeout": 300000
       },
       {
         "outputDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/test-results",
@@ -57,12 +57,12 @@
         "retries": 0,
         "id": "firefox",
         "name": "firefox",
-        "testDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/SandBox/Spec",
+        "testDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/Sandbox/Spec",
         "testIgnore": [],
         "testMatch": [
-          "alert.spec.ts"
+          "downloadFile.spec.ts"
         ],
-        "timeout": 30000
+        "timeout": 300000
       },
       {
         "outputDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/test-results",
@@ -70,12 +70,12 @@
         "retries": 0,
         "id": "webkit",
         "name": "webkit",
-        "testDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/SandBox/Spec",
+        "testDir": "C:/Users/venkata.teku/Desktop/PlaywrightDec2023/1/Sandbox/Spec",
         "testIgnore": [],
         "testMatch": [
-          "alert.spec.ts"
+          "downloadFile.spec.ts"
         ],
-        "timeout": 30000
+        "timeout": 300000
       }
     ],
     "shard": null,
@@ -86,75 +86,66 @@
   },
   "suites": [
     {
-      "title": "alert.spec.ts",
-      "file": "alert.spec.ts",
+      "title": "downloadFile.spec.ts",
+      "file": "downloadFile.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "Test cases for different types of alerts",
-          "file": "alert.spec.ts",
-          "line": 4,
-          "column": 15,
-          "specs": [
+          "title": "Download file",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Test case for prompt alert",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 11099,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-12-27T08:03:17.364Z",
+                  "attachments": [
                     {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 6149,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-12-21T10:08:01.794Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\alert-Test-cases-for-different-types-of-alerts-Test-case-for-prompt-alert-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\alert-Test-cases-for-different-types-of-alerts-Test-case-for-prompt-alert-chromium\\video.webm"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\alert-Test-cases-for-different-types-of-alerts-Test-case-for-prompt-alert-chromium\\trace.zip"
-                        }
-                      ]
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\downloadFile-Download-file-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\downloadFile-Download-file-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\venkata.teku\\Desktop\\PlaywrightDec2023\\1\\test-results\\downloadFile-Download-file-chromium\\trace.zip"
                     }
-                  ],
-                  "status": "expected"
+                  ]
                 }
               ],
-              "id": "60b6c5dc7a2ab7a519df-26f6320d7cc5aaabc3e2",
-              "file": "alert.spec.ts",
-              "line": 21,
-              "column": 7
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "922b0a09488f1f19368b-e176864c2afaeb4f1481",
+          "file": "downloadFile.spec.ts",
+          "line": 4,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2023-12-21T10:08:00.148Z",
-    "duration": 10451.095,
+    "startTime": "2023-12-27T08:03:15.835Z",
+    "duration": 14576.261999999999,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
