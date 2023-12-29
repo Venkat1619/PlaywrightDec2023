@@ -1,8 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './Sandbox/Spec',
-  testMatch:['downloadFile.spec.ts'],
+  testDir: './tests/',
+  testMatch:['screenShots.spec.ts'],
   timeout: 5 *60* 1000,
   // expect: {
     
